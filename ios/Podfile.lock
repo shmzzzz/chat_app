@@ -1,0 +1,158 @@
+PODS:
+  - cloud_firestore (4.12.1):
+    - Firebase/Firestore (= 10.16.0)
+    - firebase_core
+    - Flutter
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - Firebase/Auth (10.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 10.16.0)
+  - Firebase/CoreOnly (10.16.0):
+    - FirebaseCore (= 10.16.0)
+  - Firebase/Firestore (10.16.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (~> 10.16.0)
+  - Firebase/Storage (10.16.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 10.16.0)
+  - firebase_auth (4.12.0):
+    - Firebase/Auth (= 10.16.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (2.20.0):
+    - Firebase/CoreOnly (= 10.16.0)
+    - Flutter
+  - firebase_storage (11.4.0):
+    - Firebase/Storage (= 10.16.0)
+    - firebase_core
+    - Flutter
+  - FirebaseAppCheckInterop (10.20.0)
+  - FirebaseAuth (10.16.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+    - RecaptchaInterop (~> 100.0)
+  - FirebaseAuthInterop (10.20.0)
+  - FirebaseCore (10.16.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreExtension (10.20.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.20.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseFirestore (10.16.0):
+    - FirebaseFirestore/AutodetectLeveldb (= 10.16.0)
+  - FirebaseFirestore/AutodetectLeveldb (10.16.0):
+    - FirebaseFirestore/Base
+    - FirebaseFirestore/WithLeveldb
+  - FirebaseFirestore/Base (10.16.0)
+  - FirebaseFirestore/WithLeveldb (10.16.0):
+    - FirebaseFirestore/Base
+  - FirebaseStorage (10.16.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - Flutter (1.0.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.12.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.12.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.12.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.12.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.12.0)"
+  - GoogleUtilities/Reachability (7.12.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (3.3.1)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - nanopb (2.30909.1):
+    - nanopb/decode (= 2.30909.1)
+    - nanopb/encode (= 2.30909.1)
+  - nanopb/decode (2.30909.1)
+  - nanopb/encode (2.30909.1)
+  - PromisesObjC (2.3.1)
+  - RecaptchaInterop (100.0.0)
+
+DEPENDENCIES:
+  - cloud_firestore (from `.symlinks/plugins/cloud_firestore/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_storage (from `.symlinks/plugins/firebase_storage/ios`)
+  - FirebaseFirestore (from `https://github.com/invertase/firestore-ios-sdk-frameworks.git`, tag `10.16.0`)
+  - Flutter (from `Flutter`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseStorage
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - nanopb
+    - PromisesObjC
+    - RecaptchaInterop
+
+EXTERNAL SOURCES:
+  cloud_firestore:
+    :path: ".symlinks/plugins/cloud_firestore/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_storage:
+    :path: ".symlinks/plugins/firebase_storage/ios"
+  FirebaseFirestore:
+    :git: https://github.com/invertase/firestore-ios-sdk-frameworks.git
+    :tag: 10.16.0
+  Flutter:
+    :path: Flutter
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+
+CHECKOUT OPTIONS:
+  FirebaseFirestore:
+    :git: https://github.com/invertase/firestore-ios-sdk-frameworks.git
+    :tag: 10.16.0
+
+SPEC CHECKSUMS:
+  cloud_firestore: abc819b936be92e6167aec1a8983d1e48ded2674
+  Firebase: 25899099b77d255a636e3579c3d9dce10ec150d5
+  firebase_auth: 015dab4ffe9e4d97f7d84a3373ad4c8a7712c5c7
+  firebase_core: 2e0e89436a00b664a23bebb08859e5fede7215e9
+  firebase_storage: 2972c861e7edafb526553f0f6de65a918e4a9ac0
+  FirebaseAppCheckInterop: e81bdb1cdb82f8e0cef353ba5018a8402682032c
+  FirebaseAuth: 3862d87d4d58deff08f705d471896a2f66e8bbf0
+  FirebaseAuthInterop: 6142981334978f7942ff0e8a6f8966c3b3c8ff37
+  FirebaseCore: 65a801af84cca84361ef9eac3fd868656968a53b
+  FirebaseCoreExtension: 0659f035b88c5a7a15a9763c48c2e6ca8c0a2977
+  FirebaseCoreInternal: efeeb171ac02d623bdaefe121539939821e10811
+  FirebaseFirestore: a78fa6e8bd3644023c22d5212e7afee9d7522194
+  FirebaseStorage: d664834746c0274d267072c6bfa100960f90654a
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
+  GTMSessionFetcher: 8a1b34ad97ebe6f909fb8b9b77fba99943007556
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+
+PODFILE CHECKSUM: b98533204b04c8b396bf5a0a3da9516c0f76c91a
+
+COCOAPODS: 1.15.0
