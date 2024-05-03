@@ -1,16 +1,22 @@
 # chat_app
+- チャットアプリ
+- ログイン機能
+  - プロフィール画像設定可能
 
-A new Flutter project.
+## 使用技術
+![](https://img.shields.io/badge/firebase_core-v2.20.0-blue)
+![](https://img.shields.io/badge/firebase_auth-v4.12.0-blue)
+![](https://img.shields.io/badge/firebase_strage-v11.4.0-blue)
+![](https://img.shields.io/badge/cloud_firestore-v4.12.1-blue)
+![](https://img.shields.io/badge/image_picker-v1.0.4-blue)
 
-## Getting Started
+## 画面仕様
+ログイン画面 アカウント作成済み | ログイン画面 アカウント未作成
+--- | ---
+![](docs/auth_screen.png) | ![](docs/create_account.png)
+メールアドレス、パスワードを入力 | ユーザー名、プロフィール画像を設定可能
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+チャット画面(1/3) | チャット画面(2/3)
+--- | ---
+![](docs/chat_screen_1.png) | ![](docs/chat_screen_2.png)
+チャット画面表示時<br/>履歴があれば過去のチャットが表示される | メッセージ送信可能
